@@ -1,0 +1,156 @@
+/* Importing Fonts */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto');
+
+/* Css Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li {
+  list-style: none;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair+Display', sans-serif;
+}
+
+p {
+  margin: 0.5rem 0;
+}
+
+/* Section: Header */
+#main-header {
+  background: url('../img/home-banner.png') no-repeat center center/cover;
+  height: 90vh;
+  color: #fff;
+}
+
+/* Navigation */
+#main-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+#main-navbar #logo {
+  font-size: 1.5rem;
+}
+
+#main-navbar #logo a {
+  transition: all 0.3s ease-in;
+}
+
+#main-navbar #logo a:hover {
+  color: #333;
+}
+
+#main-navbar ul {
+  display: flex;
+  align-items: center;
+}
+
+#main-navbar ul li {
+  padding: 0 1rem;
+}
+
+#main-navbar ul li a {
+  font-size: 0.9rem;
+  transition: all 0.3s ease-in;
+}
+
+#main-navbar ul li a:hover {
+  color: #333;
+}
+
+/* Home Content */
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+
+.card .item {
+  padding-top: 22%;
+}
+
+.card .item h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.card .item h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.card .item h4 {
+  margin-top: 5.5rem;
+}
+
+.card .item p {
+  margin: 0.3rem 0;
+}
+
+.card .item div {
+    position: relative;
+}
+
+.card .item div #email {
+  padding: 0.6rem 1.5rem;
+  width: 70%;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  background: #891DFF;
+  margin-bottom: 2rem;
+}
+
+::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+.card .item div #email:focus {
+  outline: none;
+}
+
+.card .item div .btn {
+  position: absolute;
+  right: 5rem;
+  bottom: 1.8rem;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  padding: 0.9rem 2rem;
+  border-radius: 20px;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(to right, #F95B2C, #FAAC0B);
+  transition: all 0.3s ease-in;
+}
+
+.card .item div .btn:hover {
+  background: linear-gradient(to right, #FFACOB, #F95B2C);
+  color: #333;
+}
+
+
+
+/* Utility Classes */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 1rem;
+  overflow: hidden;
+}
