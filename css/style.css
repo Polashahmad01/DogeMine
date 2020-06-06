@@ -424,3 +424,62 @@ img {
   position: relative;
   bottom: 40px;
 }
+
+/* Section: FAQ */
+#frequently {
+  background: #9745FF;
+  color: #fff;
+}
+
+#frequently h5 {
+  margin-top: 2rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #FAAC0B;
+  text-shadow: 2px 2px #7616FF;
+  transition: all 0.3s ease-in;
+  text-align: center;
+}
+
+#frequently h5:hover {
+  transform: rotate(10deg);
+  color: #fff;
+}
+
+#frequently h2 {
+  text-align: center;
+  margin: 0.5rem 0;
+  font-size: 2.5rem;
+}
+
+#frequently .wrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  margin: 2rem 0;
+}
+
+#frequently .wrap div {
+  background: #7616FF;
+  padding: 0.5rem;
+  border-radius: 5px;
+  position: relative;
+}
+
+#frequently .wrap div i {
+  padding: 0.5rem;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+#frequently .wrap div i:hover {
+  transform: rotate(180deg);
+}
+
+#frequently .wrap div p {
+  position: absolute;
+  font-size: 0.9rem;
+  top: 8px;
+  left: 60px;
+}
