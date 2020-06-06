@@ -483,3 +483,88 @@ img {
   top: 8px;
   left: 60px;
 }
+
+/* Section: Contact */
+#contact {
+  background: #7616FF;
+  color: #fff;
+}
+
+#contact .wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+#contact .wrapper h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #FAAC0B;
+  text-shadow: 2px 2px #7616FF;
+  transition: all 0.3s ease-in;
+  padding-top: 2rem;
+}
+
+#contact .wrapper h2:hover {
+  transform: rotate(10deg);
+  color: #fff;
+}
+
+#contact .wrapper p {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+#contact .wrapper div {
+  width: 100%;
+}
+
+#contact .wrapper div input[type='text'],
+#contact .wrapper div input[type='email'] {
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 20px;
+  background: #7616FF;
+  border: 1px solid #fff;
+}
+
+#contact .wrapper div input[type='text']:focus,
+#contact .wrapper div input[type='email']:focus {
+  outline: none;
+}
+
+#contact .wrapper div input[type='text'],
+#contact .wrapper div input[type='email'] {
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+#contact .wrapper div textarea {
+  border: none;
+  width: 100%;
+  padding: 2rem 1rem;
+  margin: 0.5rem 0;
+  border-radius: 20px;
+  background: #7616FF;
+  border: 1px solid #fff;
+}
+
+#contact .wrapper div textarea:focus {
+  outline: none;
+}
+
+#contact .wrapper div input[type = 'submit']  {
+  background: linear-gradient(to right, #F95B2C, #FAAC0B);
+  border: none;
+  color: #fff;
+  padding: 0.6rem 1.5rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+
+#contact .wrapper div input[type = 'submit']:hover {
+  background: linear-gradient(to right, #FFACOB, #F95B2C);
+  color: #333;
+}
