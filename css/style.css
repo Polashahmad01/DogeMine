@@ -30,6 +30,20 @@ p {
   margin: 0.5rem 0;
 }
 
+img {
+  width: 100%;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 1rem;
+  overflow: hidden;
+}
+
+
+
 /* Section: Header */
 #main-header {
   background: url('../img/home-banner.png') no-repeat center center/cover;
@@ -145,12 +159,19 @@ p {
   color: #333;
 }
 
+/* Section: Featured */
+#featured {
+  height: 10vh;
+  color: #fff;
+}
 
+#featured .card {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 1rem;
+  margin-top: 1.8rem;
+}
 
-/* Utility Classes */
-.container {
-  max-width: 1100px;
-  margin: auto;
-  padding: 0 1rem;
-  overflow: hidden;
+#featured .card img {
+  width: 150px;
 }
