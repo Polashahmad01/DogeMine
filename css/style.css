@@ -42,6 +42,18 @@ img {
   overflow: hidden;
 }
 
+/* padding */
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
 
 
 /* Section: Header */
@@ -90,30 +102,33 @@ img {
 
 /* Home Content */
 .card {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1rem;
+  display: flex;
+  height: 90vh;
+  align-items: center;
 }
 
 .card .item {
-  padding-top: 22%;
+  flex: 1;
 }
 
 .card .item h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+  font-size: 3rem;
+  margin-top: 2rem;
 }
 
 .card .item h3 {
-  font-size: 1.3rem;
-  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  margin-bottom: 0.7rem;
 }
 
 .card .item h4 {
-  margin-top: 5.5rem;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  margin-bottom: 0.7rem;
 }
 
 .card .item p {
+  font-size: 1.1rem;
   margin: 0.3rem 0;
 }
 
@@ -159,19 +174,69 @@ img {
   color: #333;
 }
 
-/* Section: Featured */
 #featured {
+  background: url('../img/bottom-border.png');
+  background-repeat: round;
   height: 10vh;
   color: #fff;
 }
 
-#featured .card {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-gap: 1rem;
-  margin-top: 1.8rem;
+/* Section: Mining */
+#maining {
+  background: #7616FF;
+  color: #fff;
+  height: 60vh;
 }
 
-#featured .card img {
-  width: 150px;
+#maining h3 {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  color: #FAAC0B;
+  text-shadow: 2px 2px #7616FF;
+  transition: all 0.3s ease-in;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+#maining h3:hover {
+  transform: rotate(10deg);
+}
+
+#maining h1 {
+  font-size: 2.5rem;
+  transition: all 0.3s ease-in;
+  text-align: center;
+}
+
+#maining h1:hover {
+  transform: rotate(10deg);
+}
+
+#maining .card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: -11rem;
+  grid-gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+#maining .card .items {
+  text-align: center;
+}
+
+#maining .card .items i {
+  background: linear-gradient(to right, #F95B2C, #FAAC0B);
+  padding: 1.5rem;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+#maining .card .items i:hover {
+  padding: 2.5rem;
+  border-radius: 50%;
+  color: #333;
+  background: linear-gradient(to right, #f4f4f4, #FAAC0B);
 }
