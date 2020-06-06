@@ -379,3 +379,48 @@ img {
   background: #7616FF;
   font-size: 0.8rem;
 }
+
+/* Section: Investor */
+#investor {
+  background: #A64BFF;
+  color: #fff;
+  height: 50vh;
+}
+
+#investor .card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  margin-top: -12rem;
+}
+
+#investor .card .item h4 {
+  margin-bottom: -2.5rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #FAAC0B;
+  text-shadow: 2px 2px #7616FF;
+  transition: all 0.3s ease-in;
+}
+
+#investor .card .item h4:hover {
+  transform: rotate(5deg);
+}
+
+#investor .card .item h1 {
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+#investor .card .item img {
+  width: 100px;
+}
+#investor .card .item img:nth-child(odd) {
+  position: relative;
+  top: 70px;
+}
+
+#investor .card .item img:nth-child(even) {
+  position: relative;
+  bottom: 40px;
+}
