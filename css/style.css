@@ -568,3 +568,12 @@ img {
   background: linear-gradient(to right, #FFACOB, #F95B2C);
   color: #333;
 }
+
+/* Footer */
+#main-footer {
+  background: #9745FF;
+  padding: 0.1rem 0;
+  color: #fff;
+  text-align: center;
+  font-size: 0.8rem;
+}
