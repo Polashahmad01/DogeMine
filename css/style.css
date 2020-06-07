@@ -169,6 +169,7 @@ img {
   align-items: center;
   cursor: pointer;
   border: none;
+  outline: none;
   padding: 0.9rem 2rem;
   border-radius: 20px;
   font-weight: 600;
@@ -568,6 +569,7 @@ img {
   color: #fff;
   padding: 0.6rem 1.5rem;
   border-radius: 20px;
+  outline: none;
   cursor: pointer;
   font-weight: 600;
   transition: all 0.3s ease-in-out;
