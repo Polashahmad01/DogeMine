@@ -1,0 +1,194 @@
+@media (max-width: 768px) {
+  /* Section: Navigation */
+  #main-navbar ul {
+    display: none;
+  }
+
+  #main-navbar i {
+    display: block;
+  }
+
+  /* Section: Header */
+  #main-header {
+
+  }
+
+  /* Section: Home content */
+  .card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .card .item h1 {
+    font-size: 2.5rem;
+    margin-top: 4rem;
+  }
+
+  .card .item h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .card .item div #demail {
+    padding: 0.3rem 1rem;
+  }
+
+  .card .item div .btn {
+    padding: 0.6rem 1rem;
+    right: 1rem;
+    bottom: 1.8rem;
+  }
+
+  .card .item h4 {
+    font-size: 1.3rem;
+    text-shadow: 1px 1px #333;
+  }
+
+  .card .item p {
+    font-size: 1rem;
+    text-shadow: 1px 1px #333;
+  }
+
+  #featured {
+    display: none;
+  }
+
+  /* Section: Mining */
+  #maining {
+    height: 118vh;
+  }
+
+  #maining h1 {
+    margin-bottom: 1rem;
+  }
+
+  #maining .card {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 0;
+  }
+
+  #maining .card .items i {
+    padding: 1rem;
+    margin-bottom: 0;
+  }
+
+  /* Section: built */
+  #built {
+    height: 115vh;
+  }
+
+  #built .card {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 0;
+    margin-bottom: 5rem;
+  }
+
+  #built .card .item {
+    z-index: 5;
+    margin: 1rem 0;
+  }
+
+  #built .card .item h1 {
+    font-size: 2.5rem;
+    line-height: 2.8rem;
+    text-shadow: 1px 1px #333;
+  }
+
+  #built .card .item p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    text-shadow: 1px 1px #333;
+  }
+
+  /* Section: Transaction */
+  #transaction h2 {
+    margin-top: 0.7rem;
+    line-height: 2.8rem;
+  }
+
+  #transaction table thead tr th {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.8rem;
+  }
+
+  #transaction table tbody tr td {
+    padding: 0.3rem 0.5rem;
+    font-size: 0.7rem;
+  }
+
+  /* Section: Investor */
+  #investor {
+    height: 105vh;
+  }
+
+  #investor .card {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 0;
+    margin-bottom: 3.5rem;
+  }
+
+  #investor .card .item h4 {
+    margin-top: 0;
+    padding-bottom: 0.6rem;
+  }
+
+  #investor .card .item h1 {
+    font-size: 2.5rem;
+    line-height: 2.8rem;
+  }
+
+  #investor .card .item p {
+    margin-bottom: 4rem;
+  }
+
+  #investor .card .item img:first-child {
+    display: none;
+  }
+
+  #investor .card .item img:last-child {
+    padding-bottom: 1rem;
+  }
+
+  /* Section: frequently */
+  #frequently  h2 {
+    line-height: 3rem;
+  }
+
+  #frequently .wrap {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #frequently .wrap div {
+    padding: 0.9rem;
+  }
+
+  #frequently .wrap div p {
+    top: 15px;
+  }
+
+  /* Section: Contact */
+  #contact .wrapper{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #contact .wrapper h2 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  #contact .wrapper p {
+    text-align: center;
+  }
+
+  #contact .wrapper .item .lead {
+    margin: 0.2rem 0;
+    font-size: 0.9rem;
+  }
+
+  /* Section: Footer */
+  #main-footer {
+    font-size: 0.5rem;
+  }
+}

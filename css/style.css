@@ -82,6 +82,14 @@ img {
   color: #333;
 }
 
+#main-navbar i {
+  display: none;
+}
+
+#main-navbar .menu-background {
+  display: none;
+}
+
 #main-navbar ul {
   display: flex;
   align-items: center;
@@ -136,7 +144,7 @@ img {
     position: relative;
 }
 
-.card .item div #email {
+.card .item div #demail {
   padding: 0.6rem 1.5rem;
   width: 70%;
   border: 1px solid #fff;
@@ -150,7 +158,7 @@ img {
   opacity: 1;
 }
 
-.card .item div #email:focus {
+.card .item div #demail:focus {
   outline: none;
 }
 
@@ -190,6 +198,7 @@ img {
 
 #maining h3 {
   font-size: 0.9rem;
+  padding-top: 1rem;
   text-transform: uppercase;
   color: #FAAC0B;
   text-shadow: 2px 2px #7616FF;
